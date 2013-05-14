@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Device v9 -->
-    <project path="vendor/zte" name="plaguedbypenguins/proprietary_vendor_zte" revision="cm-10.1" />
-    <project path="device/zte/v9" name="plaguedbypenguins/android_device_zte_v9" revision="cm-10.1" />
+    <project path="vendor/zte" name="plaguedbypenguins/proprietary_vendor_zte" revision="cm-10" />
+    <project path="device/zte/v9" name="plaguedbypenguins/android_device_zte_v9" revision="cm-10" />
     <project path="kernel/zte/zte-kernel-msm7x27" name="plaguedbypenguins/zte-kernel-msm7x27" revision="cm-10.1" />
 
     <!-- FM Radio -->
