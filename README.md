@@ -1,6 +1,6 @@
-android_local_manifest
+firefox_local_manifest
 ======================
 
-local manifest file for ZTE V9 build
+local manifest files for a Firefox OS build on a ZTE V9 based on cm10
 
-please see <a href="http://www.modaco.com/topic/361573-devrom-cyanogenmod-101-android-422-for-v9/">this modaco thread</a>
+start from a working cm10 v9 build tree, clone the B2G repository into it, replace .repo/local_manifests/* with the above xml files, apply normal build patches from device/zte/v9/{patches,patches_v9} and the new patches from device/zte/v9/patches_b2g/, then build like a normal b2g. eg. ./config.sh v9 ; ./build.sh
