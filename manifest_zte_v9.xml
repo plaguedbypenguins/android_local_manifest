@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- CM replacements -->
+    <!-- remove-project name="CyanogenMod/android_build" / -->
+    <!-- remove-project name="CyanogenMod/android_external_libncurses" / -->
+    <!-- remove-project name="CyanogenMod/android_frameworks_av" / -->
+    <!-- remove-project name="CyanogenMod/android_frameworks_native" / -->
+    <!-- remove-project name="CyanogenMod/android_hardware_libhardware_legacy" / -->
+    <!-- remove-project name="CyanogenMod/android_system_netd" / -->
+    <!-- remove-project name="CyanogenMod/android_vendor_cm" / -->
+    <!-- project path="build" name="legaCyMod/android_build" revision="cm-10.1" / -->
+    <!-- project path="external/libncurses" name="legaCyMod/android_external_libncurses" revision="cm-10.1" / -->
+    <!-- project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-10.2" / -->
+    <!-- project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-10.2" / -->
+    <!-- project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" revision="cm-10.2" / -->
+    <!-- project path="system/netd" name="legaCyMod/android_system_netd" revision="cm-10.1" / -->
+    <!-- project path="vendor/cm" name="legaCyMod/android_vendor_cm" revision="cm-10.1" / -->
+
+    <!-- remove-project name="CyanogenMod/android_external_Focal" / -->
+    <!-- remove-project name="CyanogenMod/android_packages_apps_Focal" / -->
+
+    <!-- Local projects -->
+    <project path="hardware/atheros/wifi/libs" name="legaCyMod/android_hardware_atheros_wifi_libs" revision="cm-10.2" />
+    <!-- project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-10.2" / -->
+    <!-- project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-10.2" / -->
+
+    <!-- Device zte blade ~= upstream -->
+    <project path="device/zte/blade" name="KonstaT/android_device_zte_blade" revision="cm-10.1" />
+    <project path="device/zte/atlas40" name="KonstaT/android_device_zte_atlas40" revision="cm-10.2" />
+
     <!-- Device v9 -->
-    <project path="vendor/zte" name="plaguedbypenguins/proprietary_vendor_zte" revision="cm-10.1" />
-    <project path="device/zte/v9" name="plaguedbypenguins/android_device_zte_v9" revision="cm-10.1" />
-    <project path="kernel/zte/zte-kernel-msm7x27" name="plaguedbypenguins/zte-kernel-msm7x27" revision="cm-10.1" />
+    <project path="vendor/zte" name="plaguedbypenguins/proprietary_vendor_zte" revision="cm-10.2" />
+    <project path="device/zte/v9" name="plaguedbypenguins/android_device_zte_v9" revision="cm-10.2" />
+    <project path="kernel/zte/zte-kernel-msm7x27" name="plaguedbypenguins/zte-kernel-msm7x27" revision="cm-10.2" />
 
     <!-- FM Radio -->
-    <project path="packages/apps/Effem" name="grigorig/android_packages_apps_Effem" revision="master" />
+    <!-- project path="packages/apps/Effem" name="grigorig/android_packages_apps_Effem" revision="master" / -->
+
+    <!-- tmp -->
+    <!-- project path="build_cm" name="CyanogenMod/android_build" revision="cm-10.2" / -->
+    <!-- project path="vendor/cm_cm" name="CyanogenMod/android_vendor_cm" revision="cm-10.2" / -->
 </manifest>
