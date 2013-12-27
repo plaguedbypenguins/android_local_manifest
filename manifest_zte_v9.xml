@@ -35,7 +35,7 @@
     <project path="kernel/zte/zte-kernel-msm7x27" name="plaguedbypenguins/zte-kernel-msm7x27" revision="cm-10.2" />
 
     <!-- FM Radio -->
-    <!-- project path="packages/apps/Effem" name="grigorig/android_packages_apps_Effem" revision="master" / -->
+    <project path="packages/apps/Effem" name="grigorig/android_packages_apps_Effem" revision="master" />
 
     <!-- tmp -->
     <!-- project path="build_cm" name="CyanogenMod/android_build" revision="cm-10.2" / -->
