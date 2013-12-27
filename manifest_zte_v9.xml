@@ -26,7 +26,7 @@
     <project path="hardware/atheros/wifi/libs" name="androidarmv6/android_hardware_atheros_wifi_libs" revision="cm-10.2" />
 
     <!-- Device zte blade ~= upstream -->
-    <project path="device/zte/blade" name="KonstaT/android_device_zte_blade" revision="cm-10.1" />
+    <project path="device/zte/blade" name="KonstaT/android_device_zte_blade" revision="cm-10.2" />
     <project path="device/zte/atlas40" name="KonstaT/android_device_zte_atlas40" revision="cm-10.2" />
 
     <!-- Device v9 -->
